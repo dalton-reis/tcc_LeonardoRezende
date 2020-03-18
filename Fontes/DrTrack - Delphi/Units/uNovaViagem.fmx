@@ -1,0 +1,145 @@
+object fNovaViagem: TfNovaViagem
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  SystemStatusBar.BackgroundColor = claRoyalblue
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 3
+  object pnlFundo: TPanel
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 312.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 640.000000000000000000
+      Size.Height = 312.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object lblCurva: TLabel
+      Position.X = 216.000000000000000000
+      Position.Y = 96.000000000000000000
+      Text = 'lblCurva'
+      TabOrder = 3
+    end
+    object lblVelocidade: TLabel
+      Position.X = 216.000000000000000000
+      Position.Y = 120.000000000000000000
+      Text = 'lblVelocidade'
+      TabOrder = 7
+    end
+    object edtLog: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Position.X = 312.000000000000000000
+      Position.Y = 264.000000000000000000
+      TabOrder = 8
+      Viewport.Width = 42.000000000000000000
+      Viewport.Height = 42.000000000000000000
+    end
+    object lblDesAceleracao: TLabel
+      Position.X = 40.000000000000000000
+      Position.Y = 192.000000000000000000
+      Text = 'lblDesAceleracao'
+      TabOrder = 9
+    end
+    object lblAceleracao: TLabel
+      Position.X = 184.000000000000000000
+      Position.Y = 192.000000000000000000
+      Text = 'lblAceleracao'
+      TabOrder = 10
+    end
+    object lblTipCurva: TLabel
+      Position.X = 224.000000000000000000
+      Position.Y = 104.000000000000000000
+      Text = 'lblCurva'
+      TabOrder = 2
+    end
+    object Line1: TLine
+      Anchors = [akTop, akRight]
+      LineType = Top
+      Position.X = -8.000000000000000000
+      Position.Y = 82.000000000000000000
+      Size.Width = 657.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF848383
+    end
+    object lnlNomeTela: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 58.000000000000000000
+      Size.Width = 233.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Nova Viagem'
+      TabOrder = 12
+    end
+    object btnFinalizar: TButton
+      Anchors = [akTop, akRight]
+      Position.X = 536.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 13
+      Text = 'Finalizar'
+      OnClick = btnFinalizarClick
+    end
+  end
+  object Timer: TTimer
+    Interval = 500
+    OnTimer = TimerTimer
+    Left = 448
+    Top = 264
+  end
+  object Splitter1: TSplitter
+    Align = Bottom
+    Cursor = crVSplit
+    MinSize = 20.000000000000000000
+    Position.Y = 312.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object pnlMapa: TPanel
+    Align = Bottom
+    Position.Y = 328.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 152.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    object mapa: TMapView
+      Position.X = 56.000000000000000000
+      Position.Y = 16.000000000000000000
+    end
+    object Rectangle2: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 640.000000000000000000
+      Size.Height = 152.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+  object senLocalizacao: TLocationSensor
+    Distance = 10.000000000000000000
+    OnLocationChanged = senLocalizacaoLocationChanged
+    Left = 352
+    Top = 192
+  end
+  object senAcelerometro: TMotionSensor
+    Active = True
+    Left = 352
+    Top = 248
+  end
+end

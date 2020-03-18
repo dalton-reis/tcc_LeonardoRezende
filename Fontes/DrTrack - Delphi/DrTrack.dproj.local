@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/04/04 19:30:39.000.999,=C:\Users\leona\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/04/04 19:36:49.000.455,D:\TCC\TCC Delphi Novo\Units\uPrincipal.pas=C:\Users\leona\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/04/04 19:36:49.000.455,D:\TCC\TCC Delphi Novo\Units\uPrincipal.fmx=C:\Users\leona\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/04/04 19:37:00.000.107,D:\TCC\TCC Delphi Novo\DrTrack.dproj=C:\Users\leona\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/04/04 20:27:15.000.105,=D:\TCC\TCC Delphi Novo\Unit2.pas</Transaction>
+    <Transaction>2019/04/04 20:27:33.000.748,D:\TCC\TCC Delphi Novo\Units\uNovaViagem.fmx=D:\TCC\TCC Delphi Novo\Unit2.fmx</Transaction>
+    <Transaction>2019/04/04 20:27:33.000.748,D:\TCC\TCC Delphi Novo\Units\uNovaViagem.pas=D:\TCC\TCC Delphi Novo\Unit2.pas</Transaction>
+    <Transaction>2019/04/04 20:30:31.000.570,=D:\TCC\TCC Delphi Novo\Units\UClasses.pas</Transaction>
+    <Transaction>2019/04/04 20:30:31.000.590,=D:\TCC\TCC Delphi Novo\Units\uConexao.pas</Transaction>
+    <Transaction>2019/04/04 20:30:31.000.620,=D:\TCC\TCC Delphi Novo\Units\uUsuarioDAO.pas</Transaction>
+    <Transaction>2019/04/04 20:30:31.000.633,=D:\TCC\TCC Delphi Novo\Units\uViagemDAO.pas</Transaction>
+    <Transaction>2019/04/04 20:30:31.000.607,=D:\TCC\TCC Delphi Novo\Units\uLocalizacaoDAO.pas</Transaction>
+    <Transaction>2019/04/04 20:30:31.000.552,=D:\TCC\TCC Delphi Novo\Units\uAcelerometroDAO.pas</Transaction>
+    <Transaction>2019/05/12 19:25:58.000.129,=D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Response.pas</Transaction>
+    <Transaction>2019/05/12 19:25:58.000.083,=D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Database.pas</Transaction>
+    <Transaction>2019/05/12 19:25:58.000.098,=D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Interfaces.pas</Transaction>
+    <Transaction>2019/05/12 19:25:58.000.068,=D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Auth.pas</Transaction>
+    <Transaction>2019/05/12 19:25:58.000.114,=D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Request.pas</Transaction>
+    <Transaction>2019/05/12 20:13:59.000.338,=D:\TCC\TCC Delphi Novo\Unit1.pas</Transaction>
+    <Transaction>2019/05/12 20:14:15.000.128,D:\TCC\TCC Delphi Novo\Unit1.pas=D:\TCC\TCC Delphi Novo\Units\uConexaoFirebase.pas</Transaction>
+    <Transaction>2019/06/10 11:01:47.000.816,=D:\TCC\TCC Delphi Novo\Unit1.pas</Transaction>
+    <Transaction>2019/06/10 11:02:11.000.386,D:\TCC\TCC Delphi Novo\Unit1.pas=D:\TCC\TCC Delphi Novo\Units\uLocalizacaoSensor.pas</Transaction>
+    <Transaction>2019/06/20 15:23:31.000.455,=D:\TCC\TCC Delphi Novo\Unit1.pas</Transaction>
+    <Transaction>2019/06/20 15:23:48.000.997,D:\TCC\TCC Delphi Novo\Units\uLogin.fmx=D:\TCC\TCC Delphi Novo\Unit1.fmx</Transaction>
+    <Transaction>2019/06/20 15:23:48.000.997,D:\TCC\TCC Delphi Novo\Units\uLogin.pas=D:\TCC\TCC Delphi Novo\Unit1.pas</Transaction>
+    <Transaction>2019/06/24 23:38:55.000.785,=D:\TCC\TCC Delphi Novo\Unit1.pas</Transaction>
+    <Transaction>2019/06/24 23:39:46.000.793,D:\TCC\TCC Delphi Novo\Unit1.pas=D:\TCC\TCC Delphi Novo\Units\uConfiguracao.pas</Transaction>
+    <Transaction>2019/06/24 23:39:46.000.793,D:\TCC\TCC Delphi Novo\Unit1.fmx=D:\TCC\TCC Delphi Novo\Units\uConfiguracao.fmx</Transaction>
+    <Transaction>2019/06/25 00:45:08.000.807,=D:\TCC\TCC Delphi Novo\Unit1.pas</Transaction>
+    <Transaction>2019/06/25 00:46:37.000.782,D:\TCC\TCC Delphi Novo\Unit1.pas=D:\TCC\TCC Delphi Novo\Units\uFinalizarViagem.pas</Transaction>
+    <Transaction>2019/06/25 00:46:37.000.782,D:\TCC\TCC Delphi Novo\Unit1.fmx=D:\TCC\TCC Delphi Novo\Units\uFinalizarViagem.fmx</Transaction>
+    <Transaction>2019/06/25 01:17:27.000.618,=D:\TCC\TCC Delphi Novo\Unit1.pas</Transaction>
+    <Transaction>2019/06/25 01:19:05.000.470,D:\TCC\TCC Delphi Novo\Unit1.pas=D:\TCC\TCC Delphi Novo\Units\uNovoUsuario.pas</Transaction>
+    <Transaction>2019/06/25 01:19:05.000.470,D:\TCC\TCC Delphi Novo\Unit1.fmx=D:\TCC\TCC Delphi Novo\Units\uNovoUsuario.fmx</Transaction>
+    <Transaction>2019/06/25 19:23:15.000.138,=D:\TCC\TCC Delphi Novo\Unit1.pas</Transaction>
+    <Transaction>2019/06/25 19:24:05.000.546,D:\TCC\TCC Delphi Novo\Unit1.pas=D:\TCC\TCC Delphi Novo\Units\uMinhasViagens.pas</Transaction>
+    <Transaction>2019/06/25 19:24:05.000.546,D:\TCC\TCC Delphi Novo\Unit1.fmx=D:\TCC\TCC Delphi Novo\Units\uMinhasViagens.fmx</Transaction>
+    <Transaction>2019/11/27 23:05:52.302,D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Auth.pas=</Transaction>
+    <Transaction>2019/11/27 23:05:52.321,D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Database.pas=</Transaction>
+    <Transaction>2019/11/27 23:05:52.321,D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Interfaces.pas=</Transaction>
+    <Transaction>2019/11/27 23:05:52.326,D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Response.pas=</Transaction>
+    <Transaction>2019/11/27 23:05:52.326,D:\TCC\TCC Delphi Novo\Units\Firebase\Firebase.Request.pas=</Transaction>
+    <Transaction>2019/11/27 23:14:30.368,D:\TCC\TCC Delphi Novo\Units\uConexaoFirebase.pas=</Transaction>
+    <Transaction>2019/11/27 23:17:39.263,D:\TCC\TCC Delphi Novo\Units\uLocalizacaoSensor.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

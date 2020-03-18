@@ -1,0 +1,65 @@
+inherited FConfiguracao_LgXhdpiPh: TFConfiguracao_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited pnlFundo: TPanel
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited rctFundo: TRectangle
+      Position.Y = -80.000000000000000000
+    end
+    inherited imgBtnMenu: TImage
+      MultiResBitmap.Height = 92
+      MultiResBitmap.Width = 152
+    end
+    inherited PnlMenu: TPanel
+      Position.Y = 408.000000000000000000
+      Size.Height = 289.000000000000000000
+      inherited Rectangle1: TRectangle
+        Size.Height = 289.000000000000000000
+      end
+      inherited BtnPrincipal: TImage
+        MultiResBitmap.Height = 47
+        MultiResBitmap.Width = 416
+        MultiResBitmap.LoadSize = 2
+      end
+      inherited Label1: TLabel
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited btnImgConfig: TImage
+        MultiResBitmap.Height = 103
+        MultiResBitmap.Width = 648
+        MultiResBitmap.LoadSize = 2
+      end
+      inherited btnImgSair: TImage
+        MultiResBitmap.Height = 103
+        MultiResBitmap.Width = 649
+        MultiResBitmap.LoadSize = 2
+        Position.Y = 237.000000000000000000
+      end
+      inherited BtnImgMinhasViagens: TImage
+        MultiResBitmap.Height = 103
+        MultiResBitmap.Width = 648
+        MultiResBitmap.LoadSize = 2
+        Position.Y = 92.000000000000000000
+        OnClick = BtnImgMinhasViagensClick
+      end
+    end
+    inherited lblNomeCondutor: TLabel
+      Position.X = 10.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited btnLimparDados: TButton
+      Position.Y = 192.000000000000000000
+    end
+    inherited edtVelocidadeMaxima: TNumberBox
+      Position.Y = 96.000000000000000000
+    end
+    inherited btnGravarVelocidade: TButton
+      Position.Y = 136.000000000000000000
+    end
+    inherited Label2: TLabel
+      Position.Y = 104.000000000000000000
+    end
+  end
+end

@@ -1,0 +1,119 @@
+inherited fNovaViagem_LgXhdpiPh: TfNovaViagem_LgXhdpiPh
+  Caption = 'Nova Viagem'
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited pnlFundo: TPanel
+    Align = Top
+    Size.Width = 450.000000000000000000
+    Size.Height = 341.000000000000000000
+    TabOrder = 2
+    inherited Rectangle1: TRectangle
+      Size.Width = 450.000000000000000000
+      Size.Height = 341.000000000000000000
+    end
+    inherited lblCurva: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 88.000000000000000000
+      Size.Width = 57.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Curva:'
+    end
+    inherited lblVelocidade: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 112.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+    end
+    inherited edtLog: TMemo
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Position.X = 16.000000000000000000
+      Position.Y = 169.000000000000000000
+      Size.Width = 425.000000000000000000
+      Size.Height = 165.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Viewport.Width = 425.000000000000000000
+      Viewport.Height = 165.000000000000000000
+    end
+    inherited lblDesAceleracao: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 136.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Acelera'#231#227'o :'
+      TabOrder = 7
+    end
+    inherited lblAceleracao: TLabel
+      OnTap = lblAceleracaoTap
+      StyledSettings = [Family]
+      Position.X = 113.000000000000000000
+      Position.Y = 136.000000000000000000
+      Size.Width = 272.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claRed
+      Text = ''
+      TabOrder = 8
+      OnClick = lblAceleracaoDblClick
+      OnDblClick = lblAceleracaoDblClick
+    end
+    inherited lblTipCurva: TLabel
+      StyledSettings = [Family]
+      Position.X = 64.000000000000000000
+      Position.Y = 86.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claRed
+      Text = ''
+    end
+    inherited lnlNomeTela: TLabel
+      TabOrder = 9
+    end
+    inherited btnFinalizar: TButton
+      Position.X = 345.000000000000000000
+      TabOrder = 14
+    end
+  end
+  inherited Timer: TTimer
+    Left = 272
+    Top = 0
+  end
+  inherited Splitter1: TSplitter
+    Align = Top
+    Position.Y = 341.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 13.000000000000000000
+    StyleLookup = 'splitterstyle'
+  end
+  inherited pnlMapa: TPanel
+    Align = Client
+    Size.Width = 450.000000000000000000
+    Size.Height = 341.000000000000000000
+    TabOrder = 8
+    inherited mapa: TMapView
+      Align = Client
+      Size.Width = 450.000000000000000000
+      Size.Height = 341.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inherited Rectangle2: TRectangle
+      Size.Width = 450.000000000000000000
+      Size.Height = 341.000000000000000000
+    end
+  end
+  inherited senLocalizacao: TLocationSensor
+    Active = True
+    Accuracy = 1.000000000000000000
+    Top = 0
+  end
+  inherited senAcelerometro: TMotionSensor
+    Left = 88
+    Top = 0
+  end
+end
